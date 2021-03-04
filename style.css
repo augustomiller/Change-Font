@@ -1,0 +1,83 @@
+@font-face{
+    font-family: "ArthurM";
+    src: url(./Assets/Fonts/ArthurM.ttf);
+}   
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F2C230;
+}
+#title{
+    font-family: "ArthurM";
+    font-size: 60px;
+    margin-top: 16%;
+    margin-bottom: 6px;
+    text-align: center;
+}
+h1{
+    margin: auto;
+    color: #403F3D;
+}
+#container{
+    max-width: 460px;
+    margin: auto;
+    height: 50px;
+}
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #403F3D;
+    border-radius: 4px;
+    background-color: #f1da94;
+    background-image: url('./Assets/Images/search-icon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    color: rgb(99, 96, 96);
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+  }
+  input:hover{
+      background-color: #e9ce7e;
+  }
+  input:focus{
+      background-color: #f1da94;
+  }
+  ::placeholder{
+      color: rgb(99, 96, 96);
+  }
+  footer{
+    max-width: 60px;
+    height: 30px;
+    margin: auto;
+    /* background-color: crimson; */
+  }
+  #btnClear {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding: 2px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position-x: 45%;
+    border-radius: 20px;
+  }
+  #btnClear {
+    color: #590202;
+    background-color: #f1da94;
+  }
+  #btnClear:hover {
+    /* background-color: #0fe41a; */
+    background-color: #D96E11;
+    color: rgb(51, 47, 47);
+  }
